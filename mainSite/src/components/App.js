@@ -1,14 +1,16 @@
 import React from 'react';
 import "../styles/index.scss";
 
-import Testing from './testing'
+import Title from './Title'
+
 
 
 const App = ()=>{
     return(
         <>
         <h1>ELLIOTT SOFTWARE</h1>
-        <Testing/>
+        <Title/>
+        
         </>
     )
 }
