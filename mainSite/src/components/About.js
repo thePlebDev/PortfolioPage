@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutImage from './AboutImage'
 
 
 const About =()=>{
@@ -10,6 +11,8 @@ const About =()=>{
                 About
             <span aria-hidden="true">About</span>
             </h1>
+            <AboutImage/>
+            
         </div>
     )
 }
