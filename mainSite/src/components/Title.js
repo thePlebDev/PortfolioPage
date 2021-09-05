@@ -5,7 +5,7 @@ import React from 'react'
 const Title =()=>{
 
     return(
-        <div>
+        <div style={{height:"100vh"}}>
         <div class="container" >
             <h1 class="title">Elliott Software</h1>
         </div>
