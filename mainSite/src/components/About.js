@@ -5,7 +5,7 @@ import AboutImage from './AboutImage'
 const About =()=>{
 
     return(
-        <div style={{height:"100vh"}}>
+        <div style={{height:"100vh"}} id="about">
             <h1  class="glitchText">
             <span aria-hidden="true">About</span>
                 About

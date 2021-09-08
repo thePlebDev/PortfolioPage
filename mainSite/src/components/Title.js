@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-scroll";
 
 
 
@@ -10,9 +11,30 @@ const Title =()=>{
             <h1 class="title">Elliott Software</h1>
         </div>
         <div  class="subcontainer">
-            <button class="hover-text">About</button>
-            <button class="hover-text">Projects</button>
+            <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={200}
+            >
+                <button class="hover-text">About</button>
+                </Link>
+                <Link
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={200}
+            >
+                <button class="hover-text">Projects</button>
+                </Link>
+            <a href="https://twitter.com/TristAndroidDev" target="_blank" rel="noopener noreferrer"> 
             <button class="hover-text">Contact</button>
+            </a>
+            
         </div>
         </div>
     )
