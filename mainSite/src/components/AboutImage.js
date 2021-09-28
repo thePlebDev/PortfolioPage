@@ -9,7 +9,7 @@ const AboutImage =()=>{
             <div className ="typewritter">Name : <span className="cyberColor">Tristan Elliott</span></div>
             <div className ="typewritter">Age : <span className="cyberColor">25</span></div>
             <div className ="typewritter">Location: <span className="cyberColor">New Brunswick, Canada</span></div>
-            <div className ="typewritter">Intrests: <span className="cyberColor">Java, C++, mobile and backend development</span></div>
+            <div className ="typewritter">Intrests: <span className="cyberColor">Java and mobile development</span></div>
             <div className ="typewritter"> Twitter: <a href="https://twitter.com/TristAndroidDev" 
             target="_blank" rel="noopener noreferrer"><span className="cyberColor" >@TristAndroidDev</span></a></div>
             <div className ="typewritter">Special Ability: <span className="cyberColor">
